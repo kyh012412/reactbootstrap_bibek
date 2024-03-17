@@ -63,7 +63,7 @@ export default function AppPricing() {
                 </div>
                 <div className="content">
                   <ListGroup>
-                    {pricing.features.map((feature, idx, features) => {
+                    {pricing.features.map((feature, idx) => {
                       return (
                         <ListGroup.Item key={idx}>{feature}</ListGroup.Item>
                       );
